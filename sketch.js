@@ -8,8 +8,8 @@ function draw() {
   background(220);
   translate(windowWidth/2, windowHeight/2);
   rotate(angle);
-  line(0, 50, 0, -50);
-  ellipse(0, 50, 14, 14);
-  ellipse(0, -50, 14, 14);
+  line(0, 100, 0, -100);
+  ellipse(0, 100, 14, 14);
+  ellipse(0, -100, 14, 14);
   angle += 0.1;
 }
